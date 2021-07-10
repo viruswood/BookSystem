@@ -1,8 +1,5 @@
 package com.wood.entity;
 
-import java.util.Date;
-
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,8 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 /**
  * 角色 菜单  关联实体  （中间表）
  * 如果是easyui拿菜单，这样拿，根据角色拿 菜单  过虑父节点id是-1，  拿是根据节点，然后遍历换父节点id
